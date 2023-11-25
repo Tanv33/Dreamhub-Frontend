@@ -55,7 +55,7 @@ const NftOnSell = (props) => {
 
                     <div className="button-place-bid">
                       {" "}
-                      {user && item.ownerObject[0]._id === user._id ? (
+                      {user && item?.ownerObject[0]?._id === user?._id ? (
                         <button
                           className="sc-button style-place-bid style bag fl-button pri-3 disabledButton"
                           // onClick={() => {

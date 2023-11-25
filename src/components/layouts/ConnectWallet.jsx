@@ -34,8 +34,8 @@ import { coinBaseEthereum } from "../../coinbase-config";
 import { metaMaskProvider } from "../../web3-provider";
 const ConnectWallet = (props) => {
   const [data, setData] = useState([
-    connectImage1,
-    connectImage2,
+    // connectImage1,
+    // connectImage2,
     connectImage3,
   ]);
   const { networkId } = useWeb3Context();
@@ -180,7 +180,7 @@ const ConnectWallet = (props) => {
     const max = 2;
     const rand = min + Math.random() * (max - min);
     let i = Math.round(random + rand);
-    setImage(data[i]);
+    setImage(data[0]);
   }, []);
 
   const coinBaseWalletFunc = (params) => {

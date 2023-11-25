@@ -4,7 +4,8 @@
 // export const BASE_URL = "http://192.168.100.193:5001"; // AGS Wifi
 // export const BASE_URL = "http://192.168.0.106:5001"; // Home Wifi
 // export const BASE_URL = "http://192.168.47.18:5001"; // Home Wifi
-export const BASE_URL = "http://172.20.10.3:5001"; // Shobby
+// export const BASE_URL = "http://172.20.10.3:5001"; // Shobby
+export const BASE_URL = "http://192.168.0.105:5001"; // My office laptop id
 // export const BASE_URL = "http://192.168.43.18:5001"; // Shobby
 // export const BASE_URL = "http://192.168.1.50:5001"; // Jumppace Lan
 // export const BASE_URL = "https://backend-dream.herokuapp.com"; // OLD URL
