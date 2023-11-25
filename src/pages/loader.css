@@ -1,0 +1,17 @@
+.loaderDiv {
+    width: 100vw;
+    height: 100vh;
+}
+.loaderDiv .loader {
+    background: black;
+    /* background-image: url("./../assets/images/loaderGIf.gif"); */
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.loaderDiv .loader  video {
+width: 100%;
+height: 100%;
+}
